@@ -1,0 +1,72 @@
+/* Reset podstawowych marginesów i paddingów */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Cała strona z lekkim gradientem i wygodną czcionką */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Kontener na treść */
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: #ffffffdd;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Nagłówki */
+h1, h2, h3 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+/* Paragrafy */
+p {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+/* Przyjemne przyciski */
+button, .btn {
+  background-color: #6c63ff;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 10px rgba(108, 99, 255, 0.3);
+}
+
+button:hover, .btn:hover {
+  background-color: #574bdb;
+  box-shadow: 0 6px 14px rgba(87, 75, 219, 0.5);
+}
+
+/* Linki */
+a {
+  color: #6c63ff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Mały dodatek: ładna lista */
+ul {
+  list-style: inside disc;
+  margin-bottom: 20px;
+}
